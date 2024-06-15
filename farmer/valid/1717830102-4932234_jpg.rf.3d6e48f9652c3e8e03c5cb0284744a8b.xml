@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1717830102-4932234_jpg.rf.3d6e48f9652c3e8e03c5cb0284744a8b.jpg</filename>
+	<path>1717830102-4932234_jpg.rf.3d6e48f9652c3e8e03c5cb0284744a8b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1159</width>
+		<height>736</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Farmer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>670</xmin>
+			<xmax>780</xmax>
+			<ymin>68</ymin>
+			<ymax>403</ymax>
+		</bndbox>
+	</object>
+</annotation>
