@@ -5,7 +5,7 @@ def generate_negative_description_file():
         # Open output file for writing, will overwrite all existing data
         with open('neg.txt', 'w') as f:
             # Loop over all filenames
-            for filename in os.listdir('images/negative'):
+            for filename in os.listdir('../images/negative'):
                 f.write('images/negative/' + filename + '\n')
         print("File 'neg.txt' generated successfully.")
     except Exception as e:

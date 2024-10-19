@@ -1,6 +1,3 @@
-import cv2
-
-from hsvfilter import HsvFilter
 from vision import Vision
 import os
 

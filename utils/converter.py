@@ -75,9 +75,9 @@ def draw_bounding_boxes_from_pos(pos_file):
 
 # Example usage
 
-images_dir = 'farmer/valid/'  # Directory containing your images
+images_dir = '../farmer/valid/'  # Directory containing your images
 output_file = 'pos.txt'
-annotations_dir = 'farmer/valid'
+annotations_dir = '../farmer/valid'
 pos_txt_file = 'pos.txt'
 
 #create_positives_file(annotations_dir, images_dir, output_file)

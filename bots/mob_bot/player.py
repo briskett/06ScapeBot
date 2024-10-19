@@ -1,6 +1,3 @@
-import cv2
-
-from hsvfilter import HsvFilter
 from vision import Vision
 import os
 
@@ -15,7 +12,6 @@ class Player:
         }
 
     }
-
 
     def __init__(self, type: str):
         if type not in self.IMAGE_PATHS:

@@ -1,13 +1,12 @@
 import cv2 as cv
 from windowcapture import WindowCapture
-from vision import Vision
 from threading import Thread
 from time import time
-from logtype import LogType
+from utils.logtype import LogType
 from harvestbot import HarvestBot
 
 # Init WindowCapture class
-wincap = WindowCapture('Vidyascape 8.2.5')
+wincap = WindowCapture('RuneScape 2006 singleplayer [v3.4] by Mige')
 
 # track bot status
 is_bot_running = False

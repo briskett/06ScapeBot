@@ -3,7 +3,7 @@ import liveCapture
 from windowcapture import WindowCapture
 from vision import Vision
 import random
-from logtype import LogType
+from utils.logtype import LogType
 from pywinauto import mouse, keyboard
 import win32gui
 

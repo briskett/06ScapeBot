@@ -4,9 +4,7 @@ from windowcapture import WindowCapture
 from vision import Vision
 import pyautogui
 import random
-from logtype import LogType
-
-
+from utils.logtype import LogType
 
 class HarvestBot:
 
