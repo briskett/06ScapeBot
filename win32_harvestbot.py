@@ -1,9 +1,9 @@
 from time import time, sleep
-import liveCapture
+from bots.woodcutter_bot import liveCapture
 from windowcapture import WindowCapture
 from vision import Vision
 import random
-from utils.logtype import LogType
+from bots.woodcutter_bot.logtype import LogType
 from pywinauto import mouse, keyboard
 import win32gui
 

@@ -2,8 +2,8 @@ import cv2 as cv
 from windowcapture import WindowCapture
 from threading import Thread
 from time import time
-from utils.logtype import LogType
-from harvestbot import HarvestBot
+from bots.woodcutter_bot.logtype import LogType
+from bots.woodcutter_bot.harvestbot import HarvestBot
 
 # Init WindowCapture class
 wincap = WindowCapture('RuneScape 2006 singleplayer [v3.4] by Mige')

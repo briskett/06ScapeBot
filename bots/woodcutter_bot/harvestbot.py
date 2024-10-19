@@ -4,7 +4,7 @@ from windowcapture import WindowCapture
 from vision import Vision
 import pyautogui
 import random
-from utils.logtype import LogType
+from bots.woodcutter_bot.logtype import LogType
 
 class HarvestBot:
 
@@ -20,7 +20,6 @@ class HarvestBot:
         for x in range(0, 5):
             print(x)
             sleep(1)
-
 
 
     def click_target(self, rectangles, screenshot):

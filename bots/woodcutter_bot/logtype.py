@@ -1,8 +1,11 @@
 from utils.hsvfilter import HsvFilter
 from vision import Vision
+import os
 
 
 class LogType:
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
     # Define constants for HSV filters and thresholds
     HSV_FILTERS = {
         'oak': HsvFilter(14, 155, 98, 20, 177, 255, 0, 0, 85, 0),
@@ -14,9 +17,9 @@ class LogType:
     }
     IMAGE_PATHS = {
         'oak': {
-            'log': 'images/oak/oakLog.jpg',
-            'tooltip': 'images/oak/oak_tooltip.jpg',
-            'trunk': 'images/oak/newOakTrunk.jpg'
+            'log': os.path.join(current_dir, '..', '..', 'images', 'oak', 'oakLog.jpg'),
+            'tooltip': os.path.join(current_dir, '..', '..', 'images', 'oak', 'oak_tooltip.jpg'),
+            'trunk': os.path.join(current_dir, '..', '..', 'images', 'oak', 'newOakTrunk.jpg')
         },
         'willow': {
             'log': 'images/willow/willow_log.jpg',

@@ -2,8 +2,6 @@ import cv2 as cv
 from windowcapture import WindowCapture
 from vision import Vision
 from time import time
-from mob_bot import mobtype
-from logtype import LogType
 
 # Init WindowCapture class
 wincap = WindowCapture('Vidyascape 8.2.5')
