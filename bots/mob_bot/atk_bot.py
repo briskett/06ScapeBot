@@ -1,6 +1,6 @@
 from time import time, sleep
 import cv2 as cv
-from mob_bot import mobcapture, player
+from bots.mob_bot import mobcapture, player
 from vision import Vision
 from windowcapture import WindowCapture
 import pyautogui
